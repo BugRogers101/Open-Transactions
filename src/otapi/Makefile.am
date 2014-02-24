@@ -228,6 +228,7 @@ otapi_sources		=	OpenTransactions.cpp		\
 				OTAPI.cpp           		\
 				OT_ME.cpp           		\
 				OTAPI_Basic.cpp			\
+				OTAPI_Exec.cpp			\
 				OTMadeEasy.cpp			\
 				OTClient.cpp			\
 				OTServerConnection.cpp
@@ -243,6 +244,7 @@ otapi_headers		=	$(otapi_headers_dir)/main.h		\
 otapi_headers_ext	=	$(otapi_headers_dir)/OpenTransactions.h	\
 				$(otapi_headers_dir)/OTAPI.h		\
 				$(otapi_headers_dir)/OTAPI_Basic.h	\
+				$(otapi_headers_dir)/OTAPI_Exec.h	\
 				$(otapi_headers_dir)/OTMadeEasy.h	\
 				$(otapi_headers_dir)/OT_ME.h
 
